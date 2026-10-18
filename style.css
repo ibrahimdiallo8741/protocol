@@ -1,0 +1,93 @@
+
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9b9e3;
+  color: #000000;
+}
+
+/* Header */
+header {
+  background-color: #345326;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #000000;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f9b9e3;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+article {
+  background-color: white;
+  padding: 25px;
+  flex: 3;
+  border-radius: 8px;
+}
+
+aside {
+  background-color: #6aa84f;
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2, h3 {
+  color: #345326;
+}
+
+/* Footer */
+footer {
+  background-color: #7e5a72;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mobile Screen Styling */
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+}
